@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            background-color: white;
+            color: black;
+        }
+        /* Add a gray background color and some padding to the footer */
+        
+        footer {
+            color: white;
+            background-color: black;
+            padding: 25px;
+        }
+        
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+        
+        .container {
+            color: white;
+            background-color: black;
+        }
+        
+        .jumbotron {
+            background-color: black;
+            color: white;
+        }
+        
+        .navbar-inverse {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body style="background-color:black; font-family: 'Times New Roman', Times, serif; font-size: medium;">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">Home</a></li>
+                    <li class="active"><a href="">About</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>About</h1>
+    </div>
+
+    ​
+    <div class="container" style="margin-top:30px">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>About Me</h2>
+                <h5>Photo of me:</h5>
+                <img src="../images/maxresdefault.jpg" class="card-img-top" alt="Card image" style="width:100%">
+                <p>ayyy, I'm squanching in here!</p>
+                <hr class="d-sm-none">
+            </div>
+            <div class="col-sm-8">
+                <h2>How i got into programming</h2>
+                <h5> 5 March 2021</h5>
+                <img src="../images/2.-Blog-Banner-Template.jpg" class="card-img-top" alt="Card image" style="width:100%">
+                <p>Growing up i was always around technology and loved working with it. When i got into grade 10 i took IT as a subject and fell in love with programming and decided to pursue it as a career.</p>
+                <h2>I don't know, I like cars I guess</h2>
+                <h5>Dec 7, 2017</h5>
+                <img src="../images/867520.jpg" class="card-img-top" alt="Card image" style="width:100%">
+                <p>The Toyota Supra (also known as my dream car) (Japanese: トヨタ・スープラ, Toyota Sūpura) is a sports car and grand tourer manufactured by Toyota Motor Corporation beginning in 1978. The name "supra" is derived from the Latin prefix, meaning "above",
+                    "to surpass" or "go beyond"</p>
+                <br>
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <footer class="container-fluid text-center">
+        <p>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
